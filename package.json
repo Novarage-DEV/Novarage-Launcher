@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "Novarage-Launcher",
+    "preductname": "Novarage Launcher",
     "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "description": "§aBienvenue sur Novarage§r\n§6Le serveur mine-jeux §cdu youtubeurs Nova-X",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Nova-X, Nova-X, Inc.",
+        "email": "novarageroleplay@gmail.com",
+        "url": "https://github.com/Novarage-DEV"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://Novarage-Launcher.Novarage-DEV.fr",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://github.com/Novarage-DEV/Novarage/commit/7fda2efb60159d52bfeb002f2de8f4b8ff51bf28"
     },
     "license": "CCANC",
     "nodemonConfig": {
